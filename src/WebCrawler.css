@@ -1,0 +1,22 @@
+.Crawler-container {
+  display: block;
+  text-align: left;
+}
+
+.col-6 {
+  width: calc(100% - 40px);
+  padding: 20px 20px 0px 0px;
+}
+
+.col-6 > div {
+  margin-bottom: 10px;
+}
+
+.col-6 > button {
+  margin-right: 20px;   
+}
+
+.Crawler-container textarea {
+  width: inherit;
+  height: 30vh;
+}
