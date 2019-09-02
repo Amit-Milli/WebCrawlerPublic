@@ -20,6 +20,7 @@ const crawlWebPages = (crawledWebPages, address, pageInfo, pages) => {
     let { success, skipped, error } = crawledWebPages;
     if(pageInfo) {
         if (!success.includes(address)) {
+            //Assumption all the urls are valid ones
             success.push(address);
             const links = pageInfo.links;
             links && links.map(link => {
